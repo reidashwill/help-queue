@@ -21,7 +21,7 @@ const masterTicketList = [
 
 function TicketList(){
   return (
-    <React.fragment>
+    <React.Fragment>
       <hr/>
       {masterTicketList.map((ticket, index) =>
         <Ticket names={ticket.names}
@@ -29,7 +29,7 @@ function TicketList(){
           issue={ticket.issue}
           key={index}/>
       )}
-    </React.fragment>  
+    </React.Fragment>  
   );
 }
 
